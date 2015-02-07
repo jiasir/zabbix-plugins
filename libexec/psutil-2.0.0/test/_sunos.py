@@ -8,8 +8,9 @@
 
 import sys
 
-from test_psutil import sh, unittest
 import psutil
+
+from test_psutil import sh, unittest
 
 
 class SunOSSpecificTestCase(unittest.TestCase):

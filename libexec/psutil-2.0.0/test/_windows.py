@@ -18,6 +18,7 @@ import traceback
 from test_psutil import (get_test_subprocess, wait_for_pid, reap_children,
                          unittest)
 
+
 try:
     import wmi
 except ImportError:

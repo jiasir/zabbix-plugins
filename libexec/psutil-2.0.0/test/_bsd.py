@@ -14,8 +14,8 @@ import sys
 import os
 
 import psutil
-
 from psutil._compat import PY3
+
 from test_psutil import (TOLERANCE, sh, get_test_subprocess, which,
                          retry_before_failing, reap_children, unittest)
 
